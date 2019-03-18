@@ -49,4 +49,4 @@ if __name__ == "__main__":
 	print(("* loading keras..."
 		"wait for a seconde please..."))
 	#load_model()
-	app.run()
+	app.run('0.0.0.0',5000)
